@@ -1,5 +1,6 @@
-package guru.springframework.springaiintro.services;
+package guru.springframework.springaiintro.springaibasic.services;
 
+import guru.springframework.springaiintro.spingaibasic.services.OpenAIServiceImpl;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

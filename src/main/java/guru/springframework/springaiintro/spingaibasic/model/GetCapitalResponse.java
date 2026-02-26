@@ -1,4 +1,4 @@
-package guru.springframework.springaiintro.model;
+package guru.springframework.springaiintro.spingaibasic.model;
 
 import com.fasterxml.jackson.annotation.JsonPropertyDescription;
 

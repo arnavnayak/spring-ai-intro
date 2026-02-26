@@ -1,13 +1,11 @@
-package guru.springframework.springaiintro.services;
+package guru.springframework.springaiintro.spingaibasic.services;
 
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import guru.springframework.springaiintro.model.Answer;
-import guru.springframework.springaiintro.model.GetCapitalRequest;
-import guru.springframework.springaiintro.model.GetCapitalResponse;
-import guru.springframework.springaiintro.model.Question;
+import guru.springframework.springaiintro.spingaibasic.model.Answer;
+import guru.springframework.springaiintro.spingaibasic.model.GetCapitalRequest;
+import guru.springframework.springaiintro.spingaibasic.model.GetCapitalResponse;
+import guru.springframework.springaiintro.spingaibasic.model.Question;
 import org.springframework.ai.chat.model.ChatModel;
 import org.springframework.ai.chat.model.ChatResponse;
 import org.springframework.ai.chat.prompt.Prompt;

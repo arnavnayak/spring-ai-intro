@@ -1,10 +1,10 @@
-package guru.springframework.springaiintro.controllers;
+package guru.springframework.springaiintro.spingaibasic.controllers;
 
-import guru.springframework.springaiintro.model.Answer;
-import guru.springframework.springaiintro.model.GetCapitalRequest;
-import guru.springframework.springaiintro.model.GetCapitalResponse;
-import guru.springframework.springaiintro.model.Question;
-import guru.springframework.springaiintro.services.OpenAIService;
+import guru.springframework.springaiintro.spingaibasic.model.Answer;
+import guru.springframework.springaiintro.spingaibasic.model.GetCapitalRequest;
+import guru.springframework.springaiintro.spingaibasic.model.GetCapitalResponse;
+import guru.springframework.springaiintro.spingaibasic.model.Question;
+import guru.springframework.springaiintro.spingaibasic.services.OpenAIService;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;

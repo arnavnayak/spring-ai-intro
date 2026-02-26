@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: spring-ai-intro
+  ai:
+    openai:
+      api-key: ${OPENAI_API_KEY}
+sfg:
+  aiapp:
+    vectorStorePath: /src/main/resources/vectorstore.json
