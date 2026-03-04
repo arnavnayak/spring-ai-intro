@@ -26,7 +26,7 @@ public class LoadVectorStore implements CommandLineRunner {
     public void run(String... args) throws Exception {
         log.info("Loading vector store....");
 
-        if(!vectorStore.similaritySearch("Sportsman").isEmpty()){
+        if(vectorStore.similaritySearch("Sportsman").isEmpty()){ //add ! in the if condition to store things in the vector store
             log.info("Loading documents into vector store");
             ragBoatExpertVectorStoreProperties.getDocumentsOfTowVehicleToLoad().forEach(document-> {
                 log.info("loading document : "+document.getFilename());

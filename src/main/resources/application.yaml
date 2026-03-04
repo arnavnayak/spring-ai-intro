@@ -24,6 +24,7 @@ spring:
           metricType: COSINE
 sfg:
   aiapp:
+    apininjakey: ${API_NINJA_KEY}
     vectorStorePath: src/main/resources/vectorstore.json
     documentsToLoad:
       - classpath:/movies500.csv
